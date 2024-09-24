@@ -17,14 +17,14 @@ a circular animatable & Interface Builder highly customizable progress bar
   s.homepage         = "https://github.com/matibot/MBCircularProgressBar"
   s.screenshots     = "https://raw.github.com/matibot/MBCircularProgressBar/master/Readme/example.png", "https://raw.github.com/matibot/MBCircularProgressBar/master/Readme/MBCircularProgressBar.gif"
   s.license          = 'MIT'
-  s.author           = { "Mati Bot" => "os@mati.bot" }
+  s.author           = { "Mati Bot" => "matibot@gmail.com" }
   s.source           = { :git => "https://github.com/matibot/MBCircularProgressBar.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/@b0tnik'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   s.resource_bundles = {
     'MBCircularProgressBar' => ['Pod/Assets/*.png']
   }
